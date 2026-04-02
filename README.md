@@ -102,21 +102,23 @@ This project demonstrates how modern AI systems work by building:
 
 
 git clone https://github.com/your-username/slm-transformers.git
+
 cd slm-transformers
 ---
 
 ## Creating Virtual Environment
 
--python -m venv venv
--source venv/bin/activate   # Mac/Linux
--venv\Scripts\activate      # Windows
+python -m venv venv
+
+## Activate
+venv\Scripts\activate      # Windows
 ---
 ## Requirements
 pip install -r requirements.txt
-
+---
 ## Create Virtual file (.env) name 
 GEMINI_API_KEY= paste your api
-
+---
 ## Backend
 uvicorn main:app --reload
 
