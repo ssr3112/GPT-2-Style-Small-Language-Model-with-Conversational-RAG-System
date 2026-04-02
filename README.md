@@ -107,10 +107,11 @@ cd slm-transformers
 
 ## Creating Virtual Environment
 
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-
+-python -m venv venv
+-source venv/bin/activate   # Mac/Linux
+-venv\Scripts\activate      # Windows
+---
+## Requirements
 pip install -r requirements.txt
 
 ## Create Virtual file (.env) name 
